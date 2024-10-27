@@ -54,6 +54,9 @@ while not game_over:
             break
 
 print("Gracz numer", idx_gracza + 1, "jest zwycięzcą z wynikiem:", aktualny_wynik)
+print("Końcowe wyniki graczy:")
+for i in range(gracze):
+    print("Gracz", i + 1, ":", wyniki_graczy[i])
 
 
        
